@@ -7,6 +7,8 @@ echo "This will install node v0.10 and update and upgrade apt-get"
 echo "This may break a few things"
 echo "Here it goes."
 
+cd ~
+
 sudo apt-get update && sudo apt-get upgrade
 
 echo "We will now get v0.10 of NodeJS"
