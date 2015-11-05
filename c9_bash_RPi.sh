@@ -31,5 +31,5 @@ scripts/install-sdk.sh
 echo "And now the magic begins"
 echo "------------------------"
 
-./server.js -l 0.0.0.0 -a :
+./server.js -l 0.0.0.0 -a : -w ~
     
