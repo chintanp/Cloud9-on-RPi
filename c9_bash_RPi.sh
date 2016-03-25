@@ -9,7 +9,7 @@ echo "Here it goes."
 
 cd ~
 
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update -y && sudo apt-get upgrade -y
 
 echo "We will now get v0.10 of NodeJS"
 wget http://nodejs.org/dist/v0.10.28/node-v0.10.28-linux-arm-pi.tar.gz
